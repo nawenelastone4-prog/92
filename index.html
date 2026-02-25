@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAST-ONE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LAST-ONE - Open-access scientific articles and research insights.">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        nav {
+            background: #1f2937;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+            transition: all 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #111827;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 12px;
+            color: #111827;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>LAST-ONE</h1>
+    <p>Scientific Articles • Research • Innovation</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Physics</a>
+    <a href="#">Biology</a>
+    <a href="#">Technology</a>
+    <a href="#">About</a>
+</nav>
+
+<div class="container">
+    <div class="articles">
+
+        <div class="card">
+            <h2>Quantum Computing Advances</h2>
+            <p>Recent breakthroughs in quantum processors are redefining computational power and cryptography security models.</p>
+            <a href="#">Read More →</a>
+        </div>
+
+        <div class="card">
+            <h2>CRISPR Gene Editing</h2>
+            <p>Scientists are exploring safer and more precise genome editing techniques using next-generation CRISPR systems.</p>
+            <a href="#">Read More →</a>
+        </div>
+
+        <div class="card">
+            <h2>Climate Change Models 2026</h2>
+            <p>Updated climate simulations provide new insights into global temperature patterns and mitigation strategies.</p>
+            <a href="#">Read More →</a>
+        </div>
+
+        <div class="card">
+            <h2>Artificial Intelligence in Medicine</h2>
+            <p>AI-driven diagnostics and predictive analytics are transforming healthcare delivery worldwide.</p>
+            <a href="#">Read More →</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 LAST-ONE | All Rights Reserved
+</footer>
+
+</body>
+</html>
